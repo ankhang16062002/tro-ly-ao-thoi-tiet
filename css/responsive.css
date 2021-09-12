@@ -1,0 +1,35 @@
+@media (max-width: 736px) {
+    .container {
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .seach-nav {
+        padding-top: 60px;
+    }
+
+    .seach-nav input {
+        height: 25px;
+        font-size: 13px;
+    }
+
+    .microphone {
+        top: 71px;
+    }
+
+    .item {
+        padding-top: 25px
+    }
+
+    .info-footer {
+        padding-bottom: 60px;
+    }
+
+    .info-body {
+        height: 63vh;
+    }
+}
+
+/* code by ANKHANG  */

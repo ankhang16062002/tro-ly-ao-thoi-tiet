@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto; 
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background: linear-gradient(145deg, #2193b0, #6dd5ed);
+}
+
+.seach-nav {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.seach-nav i {
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+}
+
+.microphone {
+    position: absolute;
+    right: 4px;
+    top: 36px;
+    cursor: pointer;
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+
+.microphone.recording .recording-icon {
+    display: block;
+}
+
+.microphone.recording i {
+    display: none;
+}
+
+.recording-icon {
+    display: none;
+    width: 10px;
+    height: 10px;
+    background-color: #e22d2d;
+    border-radius: 50%;
+    animation: blur 5s infinite linear;
+}
+
+@keyframes blur {
+    0%{box-shadow: 0 0 3px 0 rgba(173, 0, 0, 0.3)}
+    50%{box-shadow: 0 0 3px 5px rgba(173, 0, 0, 0.3)}
+    50%{box-shadow: 0 0 3px 5px rgba(173, 0, 0, 0)}
+
+}
+
+.seach-nav input {
+    width: 100%;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    padding: 7px 25px 3px;
+    color: #fff;
+}
+
+.seach-nav input::placeholder {
+    color: rga(206,206,206);
+}
+
+.info-body {
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.info-body-city {
+    margin-bottom: 3px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.info-body-weather {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.info-body-temp {
+    font-size: 55px;
+    font-weight: 300;
+    position: relative;
+}
+
+.info-body-temp::after {
+    display: block;
+    content: 'o';
+    position: absolute;
+    font-size: 20px;
+    right: -14px;
+    top: 5px;
+}
+
+.info-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.item {
+    width: 50%;
+    padding: 10px 0 0 50px;
+}
+
+.item h5 {
+    font-weight: 600;
+}
+
+.item span {
+    font-size: 13px;
+}
+
+.item-weet {
+    margin-right: 10px;
+    position: relative;
+}
+
+.item-speed {
+    position: relative;
+}
+
+.item-weet::after {
+    display: block;
+    content: "%";
+    position: absolute;
+    top: 0;
+    right: -11px;
+}
+
+.item-speed::after {
+    display: block;
+    content: "km/h";
+    position: absolute;
+    top: 0;
+    right: -35px;
+}
+
+
+/* code by ankhang  */
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./icon/font-awesome.min.css">
+    <link rel="stylesheet" href="./fonts/openfonts.css">
+</head>
+<body>
+    <div class="container">
+        <div class="seach-nav">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="text" placeholder="Tìm kiếm thành phố" class="seach-input">
+            <span class="microphone">
+                <i class="fa fa-microphone" aria-hidden="true"></i>
+                
+                <span class="recording-icon"></span>
+            </span>
+        </div>
+        <div class="info-body">
+            <span class="info-body-city">Thành phố Hồ Chí Minh</span>
+            <h5 class="info-body-weather">mây thưa</h5>
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="">
+            <span class="info-body-temp">26</span>
+        </div>
+        <div class="info-footer">
+            <div class="row">
+                <div class="item">
+                    <h5>MT Mọc</h5>
+                    <span class="sun-rise">6:16</span>
+                </div>
+                <div class="item">
+                    <h5>Mặt trời lặn</h5>
+                    <span class="sun-down">17:57</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item">
+                    <h5>Độ ẩm</h5>
+                    <span class="item-weet">73</span>
+                </div>
+                <div class="item">
+                    <h5>Gió</h5>
+                    <span class="item-speed">5.54</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+    <script src="./js/moment.js"></script>
+</body>
+</html>
+
+<!-- code by ANKHANG -->
