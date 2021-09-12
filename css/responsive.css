@@ -28,7 +28,7 @@
     }
 
     .info-body {
-        height: 63vh;
+        height: calc(100vh - 286px);
     }
 }
 
